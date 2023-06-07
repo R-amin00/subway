@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Raleway:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet" />
+
+    <title>Subway Series</title>
+
+    <!-- Style -->
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        max-width: 1920px;
+        font-family: "Raleway", sans-serif;
+      }
+
+      .subway-series {
+        padding: 112px 120px;
+      }
+      .subway-series-container {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        margin-bottom: 80px;
+      }
+      .subway-series-item {
+        width: 520px;
+        max-height: 750px;
+        padding: 30px;
+        background: rgba(0, 151, 67, 0.05);
+        border-radius: 20px;
+      }
+      .subway-series-item img {
+        width: 460px;
+        height: 386.4px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+      }
+      .subway-series-info p {
+        text-align: center;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+      }
+      .subway-common-date {
+        color: #009743;
+        text-align: center;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+      }
+
+      .subway-series-btn {
+        width: 280px;
+        height: 74.03px;
+        border: none;
+        padding: 12px 28px;
+
+        background: #009743;
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 28px;
+        text-align: center;
+        color: #ffffff;
+
+        position: absolute;
+        left: 40%;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="subway-series">
+      <div class="subway-series-container">
+        <div class="subway-series-item">
+          <div>
+            <img src="./images/subway-series-1.png" alt="" />
+          </div>
+          <div class="subway-series-info">
+            <p class="subway-common-date">May 8, 2023</p>
+            <p>
+              May 8, 2023 Subway® Celebrates Nurses and Teachers Nationwide With
+              a Week of Free Subway® Series Subs
+            </p>
+          </div>
+        </div>
+
+        <div class="subway-series-item">
+          <div>
+            <img src="./images/subway-series-2.png" alt="" />
+          </div>
+          <div class="subway-series-info">
+            <p class="subway-common-date">May 1, 2023</p>
+            <p>
+              May 1, 2023 Subway® Expands Record-Setting Subway Series Menu for
+              the First Time, Adding All-New Sandwiches and Updating Classics
+            </p>
+          </div>
+        </div>
+
+        <div class="subway-series-item">
+          <div>
+            <img src="./images/subway-series-3.png" alt="" />
+          </div>
+          <div class="subway-series-info">
+            <p class="subway-common-date">Apr 24, 2023</p>
+            <p>
+              Apr 24, 2023 Subway® Canada Launches Biggest Menu Overhaul Ever
+              with Subway® Series: A Whole New Way to Subway
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="subway-series-btn">More News</button>
+    </section>
+  </body>
+</html>
